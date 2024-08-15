@@ -1,0 +1,10 @@
+//Technically should be a generic object, but Inheritance is fucked so oh well
+var playerStruct => :
+    METH init(self,x,y,char):
+        self.x = x
+        self.y = y
+        self.char = char
+    END
+END
+var _player = playerStruct(2,2,"p")
+
